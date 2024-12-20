@@ -12,9 +12,9 @@ const TabLayout: FC<TabLayoutProps> = () => {
           title: 'Home',
         }}
       />
-      <Tabs.Screen name="category" options={{ title: 'Category' }} />
-      <Tabs.Screen name="cart" options={{ title: 'Cart' }} />
-      <Tabs.Screen name="profile" options={{ title: 'Profile' }} />
+      <Tabs.Screen name="category/index" options={{ title: 'Category' }} />
+      <Tabs.Screen name="cart/index" options={{ title: 'Cart' }} />
+      <Tabs.Screen name="profile/index" options={{ title: 'Profile' }} />
     </Tabs>
   )
 }

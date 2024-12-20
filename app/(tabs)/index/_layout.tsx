@@ -6,7 +6,7 @@ type HomeLayoutProps = {}
 const HomeLayout: FC<HomeLayoutProps> = () => {
   return (
     <Stack>
-      <Stack.Screen name="" />
+      <Stack.Screen name="index" />
     </Stack>
   )
 }
